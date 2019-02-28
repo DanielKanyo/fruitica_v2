@@ -39,10 +39,10 @@ export const dataSrb = {
       part3: `Samo zadovoljni korisnici se vraćaju ponovnoj kupovini - a redovnom kupovinom naših proizvoda osiguravaju
       dugoročni opstanak kompanije "Fruitica d.o.o." a samim tim i stabilnu egzistencijalnu osnovu svim zaposlenima u
       kompaniji.`,
-      part4: `Zato zadovoljenje ne samo zahteva, već i neiskazanih očekivanja korisnika.`,
+      part4: `Zato zadovoljenje ne samo zahteva, već i neiskazanih očekivanja korisnika, tj. osiguranje kvaliteta i bezbednosti 
+      proizvoda je prioritetna obaveza zaposlenih na svim nivoima aktivnosti u kompaniji Fruitica d.o.o.`,
       part5: `Ostvarenje navedenih ciljeva postiže se sprovođenjem sistema menadžmenta kvalitetom i bezbednošću
-      proizvoda u skladu sa zahtevima standarda ISO 9001:2008, BRC Global Standard for Food Safety Issue 5:2008 i
-      HACCP po CAC/RCP 1-1969, Rev. 4-2003., što podrazumeva:`,
+      proizvoda u skladu sa zahtevima standarda ISO 9001:2015 i HACCP po CAC/RCP 1-1969, Rev. 4-2003., što podrazumeva:`,
       part6: `poštovanje svih relevantnih propisa u vezi poslovanja preduzeća;`,
       part7: `obavezu rukovodstva da određuje takve poslovne ciljeve koji podržavaju navedeno opredeljenje, i da
       osiguraju takvo interno okruženje, u kojem zaposleni mogu u potpunosti da učestvuju u ostvarivanju
@@ -56,8 +56,8 @@ export const dataSrb = {
       performansi organizacije;`,
       part13: `odlučivanje na osnovu činjenica;`,
       part14: `izgradnju uzajamno korisnih, partnerskih odnosa sa isporučiocima.`,
-      part15: `Generalni direktor i osnivač kompanije: Ištvan Berenji`,
-      part16: `Čantavir, 25.09.2008.`
+      part15: `Generalni direktor: Kornel Feješ`,
+      part16: `Čantavir, 01.11.2017.`
     },
     competition1: {
       part1: `Kupovina nove poljoprivredne mašine / Bethlen Gábor Fond`,
@@ -196,7 +196,7 @@ export const dataSrb = {
         part2: `FUNKCIONALNOST:`,
         part3: [`zamena mleka sa različitim sadržajem proteina`, `mlečni napitak se lako priprema`, `kremastost i aroma uporediva sa kravjim mlekom`],
         part4: `APLIKACIJA:`,
-        part5:[`tečno rekombinantno mleko`, `kondenzovano rekombinantno mleko`, `sladoled`, `koncentrati ručka`, `jogurt`, `čokoladna pića`, `kafene napitke`, `kapućino`]
+        part5: [`tečno rekombinantno mleko`, `kondenzovano rekombinantno mleko`, `sladoled`, `koncentrati ručka`, `jogurt`, `čokoladna pića`, `kafene napitke`, `kapućino`]
       },
       title: `Mokate`
     },

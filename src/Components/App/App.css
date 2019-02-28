@@ -7,6 +7,10 @@
   height: 64px;
 }
 
+p, ul, li {
+  color: rgba(0, 0, 0, 0.87);
+}
+
 .drawer-header {
   color: #008823;
   font-size: 18px;
@@ -64,6 +68,14 @@
   max-width: 620px;
 }
 
+.component-text-container table {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.component-text-container table td:nth-child(2) {
+  text-align: right;
+}
 
 @media only screen and (max-width: 600px) {
   .app-content {

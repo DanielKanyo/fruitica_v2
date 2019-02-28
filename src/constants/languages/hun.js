@@ -43,8 +43,7 @@ export const dataHun = {
       biztosított minőség és a termékbiztonság alkalmazottaink elsődleges kötelezettsége a Fruitica d.o.o. vállalatban a
       tevékenyég minden szintjén.`,
       part5: `A követelményeknek megfelelően e célok elérését és a termékek biztonságát a minőségbiztosítási rendszer
-      segíti, az ISO 9001: 2009, BRC Global Food Safety Issue 5: 2008 és a HACCP által a CAC / RCP 1 – 1969, Rev.
-      4 – 2003, ami a következőket jelenti:`,
+      segíti, az ISO 9001:2015 és a HACCP által a CAC/RCP 1-1969, Rev. 4-2003., ami a következőket jelenti:`,
       part6: `az üzleti tevékenységre vonatkozó minden előírás betartása;`,
       part7: `a vezetőség azon kötelezettsége, hogy meghatározza az üzleti célokat, melyek támogatják ezt a
       definíciót, és egy olyan belső környezet biztosítása, amelyben az alkalmazottak teljes mértékben részt
@@ -58,8 +57,8 @@ export const dataHun = {
       szervezet általános teljesítményében;`,
       part13: `tényalapú döntéshozatal;`,
       part14: `kölcsönösen előnyös partnerkapcsolatok kiépítése a beszállítókkal.`,
-      part15: `Vezérigazgató és alapító: Berényi István`,
-      part16: `Csantavér, 2008.09.25.`
+      part15: `Vezérigazgató: Fejes Kornél`,
+      part16: `Csantavér, 2017.11.01.`
     },
     competition1: {
       part1: `Új mezőgazdasági erőgép beszerzése / Bethlen Gábor Alap`,

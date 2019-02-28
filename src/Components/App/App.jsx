@@ -29,6 +29,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Home from '../Home/Home';
 import Career from '../Career/Career';
 import CompanyData from '../About/CompanyData';
+import Mission from '../About/Mission';
 
 import { dataHun } from '../../constants/languages/hun';
 import { dataSrb } from '../../constants/languages/srb';
@@ -181,7 +182,7 @@ class App extends Component {
             <ListItem button className="sub-item" component={Link} to={routes.COMPANYDATA}>
               <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[0].items[0]} />
             </ListItem>
-            <ListItem button className="sub-item">
+            <ListItem button className="sub-item" component={Link} to={routes.MISSION}>
               <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[0].items[1]} />
             </ListItem>
             <ListItem button className="sub-item">
@@ -344,6 +345,12 @@ class App extends Component {
                   exact
                   path={routes.COMPANYDATA}
                   component={() => <CompanyData languageObjectProp={this.state.languageObject} />}
+                />
+
+                <Route
+                  exact
+                  path={routes.MISSION}
+                  component={() => <Mission languageObjectProp={this.state.languageObject} />}
                 />
               </div>
             </div>

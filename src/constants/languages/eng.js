@@ -42,8 +42,7 @@ export const dataEng = {
       part4: `Therefore, satisfaction not only demands, but also unpublished user expectations of the users. 
       Quality assurance and product safety is a priority obligation of employees at all levels of activity at Fruitica doo.`,
       part5: `The achievement of these goals is achieved through the implementation of the quality management system and
-      the safety of products in accordance with the requirements of ISO 9001: 2008, BRC Global Standard for Food
-      Safety Issue 5: 2008 and HACCP by CAC / RCP 1-1969, Rev. 4-2003, which means:`,
+      the safety of products in accordance with the requirements of ISO 9001:2015 and HACCP by CAC/RCP 1-1969, Rev. 4-2003., which means:`,
       part6: `compliance with all relevant regulations regarding business operations;`,
       part7: `the responsibility of the management to determine such business goals that support that commitment,
       and to provide such an internal environment, in which employees can fully participate in achieving
@@ -58,8 +57,8 @@ export const dataEng = {
       overall performance of the organization;`,
       part13: `decision making based on facts;`,
       part14: `building mutually beneficial, partner relationships with suppliers.`,
-      part15: `General director and founder: Istvan Berenyi`,
-      part16: `Chantavir, September 25, 2008`
+      part15: `General director: Kornel Feješ`,
+      part16: `Čantavir, November 1, 2017`
     },
     competition1: {
       part1: `Purchase of new agricultural machinery / Bethlen Gábor Fond`,
