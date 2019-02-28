@@ -1,0 +1,72 @@
+.app-bar .page-title-placeholder {
+  background-image: url("../../images/fruiticalogo.png");
+  background-position: left;
+  background-size: auto 140%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 64px;
+}
+
+.drawer-header {
+  color: #008823;
+  font-size: 18px;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.sub-list {
+  background: #f5f5f5;
+}
+
+.sub-sub-list {
+  background: #eeeeee;
+}
+
+.sub-item {
+  padding-left: 26px !important;
+}
+
+.sub-sub-item {
+  padding-left: 32px !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu-list svg {
+  color: rgba(0, 0, 0, 0.57);
+}
+
+.more-icon {
+  transition: 0.2s !important;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.menu-item-text>span {
+  font-size: 15px !important;
+}
+
+.component-header-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.card-image img {
+  max-width: 620px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .app-content {
+    padding: 24px 14px 14px 14px !important;
+  }
+}
