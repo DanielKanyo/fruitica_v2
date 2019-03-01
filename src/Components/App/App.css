@@ -77,6 +77,19 @@ p, ul, li {
   text-align: right;
 }
 
+.tile-icon-bar {
+  display: none;
+}
+
+.Competition1 img {
+  margin-top: 12px;
+}
+
+.Competition1 a {
+  text-decoration: none;
+  color: blue;
+}
+
 @media only screen and (max-width: 600px) {
   .app-content {
     padding: 24px 14px 14px 14px !important;
