@@ -31,6 +31,9 @@ import Career from '../Career/Career';
 import CompanyData from '../About/CompanyData';
 import Mission from '../About/Mission';
 import Competition1 from '../About/Competition1';
+import Wild from '../Materials/Wild';
+import Superfood from '../Materials/Superfood';
+import Mprofood from '../Materials/Mprofood';
 
 import { dataHun } from '../../constants/languages/hun';
 import { dataSrb } from '../../constants/languages/srb';
@@ -220,16 +223,16 @@ class App extends Component {
               <ExpandMoreIcon className="more-icon" moreicon={3} />
             </ListItem>
             <div subitem={3} className="sub-sub-list hidden">
-              <ListItem button className="sub-sub-item">
+              <ListItem button className="sub-sub-item" component={Link} to={routes.WILD}>
                 <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[1].subItems[0]} />
               </ListItem>
               <ListItem button className="sub-sub-item">
                 <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[1].subItems[1]} />
               </ListItem>
-              <ListItem button className="sub-sub-item">
+              <ListItem button className="sub-sub-item" component={Link} to={routes.SUPPERFOOD}>
                 <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[1].subItems[2]} />
               </ListItem>
-              <ListItem button className="sub-sub-item">
+              <ListItem button className="sub-sub-item" component={Link} to={routes.MPROFOOD}>
                 <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[1].subItems[3]} />
               </ListItem>
             </div>
@@ -358,6 +361,24 @@ class App extends Component {
                   exact
                   path={routes.COMETITION1}
                   component={() => <Competition1 languageObjectProp={this.state.languageObject} />}
+                />
+
+                <Route
+                  exact
+                  path={routes.WILD}
+                  component={() => <Wild languageObjectProp={this.state.languageObject} />}
+                />
+
+                <Route
+                  exact
+                  path={routes.SUPPERFOOD}
+                  component={() => <Superfood languageObjectProp={this.state.languageObject} />}
+                />
+
+                <Route
+                  exact
+                  path={routes.MPROFOOD}
+                  component={() => <Mprofood languageObjectProp={this.state.languageObject} />}
                 />
               </div>
             </div>
