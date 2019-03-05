@@ -34,6 +34,7 @@ import Competition1 from '../About/Competition1';
 import Wild from '../Materials/Wild';
 import Superfood from '../Materials/Superfood';
 import Mprofood from '../Materials/Mprofood';
+import Mokate from '../Materials/Mokate';
 
 import { dataHun } from '../../constants/languages/hun';
 import { dataSrb } from '../../constants/languages/srb';
@@ -226,7 +227,7 @@ class App extends Component {
               <ListItem button className="sub-sub-item" component={Link} to={routes.WILD}>
                 <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[1].subItems[0]} />
               </ListItem>
-              <ListItem button className="sub-sub-item">
+              <ListItem button className="sub-sub-item" component={Link} to={routes.MOKATE}>
                 <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[1].subItems[1]} />
               </ListItem>
               <ListItem button className="sub-sub-item" component={Link} to={routes.SUPPERFOOD}>
@@ -379,6 +380,12 @@ class App extends Component {
                   exact
                   path={routes.MPROFOOD}
                   component={() => <Mprofood languageObjectProp={this.state.languageObject} />}
+                />
+
+                <Route
+                  exact
+                  path={routes.MOKATE}
+                  component={() => <Mokate languageObjectProp={this.state.languageObject} />}
                 />
               </div>
             </div>

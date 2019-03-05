@@ -111,7 +111,7 @@ export const dataSrb = {
     mokate: {
       mokacb: {
         title: `PENA ZA PIĆE | MOKA CB`,
-        part1: `Pena za napitke MOKA CB su instant proizvodi koji lako omogućavaju efekat &quot;penastog mleka&quot;,
+        part1: `Pena za napitke MOKA CB su instant proizvodi koji lako omogućavaju efekat "penastog mleka",
         a istovremeno poboljšavaju ukus kafe i čokolade. Tehnologija kapsula i sušenje u raspršivanju
         omogućavaju zatvaranje gasa u penastim kapsulama i pravilnom sastavu proizvoda,
         dozvoljavaju raspadanje, formiraju stabilnu, aromatičnu i ukusnu mlečnu penu na vrhu pića.
