@@ -35,6 +35,7 @@ import Wild from '../Materials/Wild';
 import Superfood from '../Materials/Superfood';
 import Mprofood from '../Materials/Mprofood';
 import Mokate from '../Materials/Mokate';
+import Contact from '../Contact/Contact';
 
 import { dataHun } from '../../constants/languages/hun';
 import { dataSrb } from '../../constants/languages/srb';
@@ -243,7 +244,7 @@ class App extends Component {
             <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[2].title} />
           </ListItem>
 
-          <ListItem button>
+          <ListItem button component={Link} to={routes.CONTACT}>
             <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[3].title} />
           </ListItem>
 
@@ -386,6 +387,12 @@ class App extends Component {
                   exact
                   path={routes.MOKATE}
                   component={() => <Mokate languageObjectProp={this.state.languageObject} />}
+                />
+
+                <Route
+                  exact
+                  path={routes.CONTACT}
+                  component={() => <Contact languageObjectProp={this.state.languageObject} />}
                 />
               </div>
             </div>
