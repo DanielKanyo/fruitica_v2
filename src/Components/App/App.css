@@ -13,6 +13,10 @@ li {
   color: rgba(0, 0, 0, 0.87);
 }
 
+.app-toolbar {
+  min-height: 82px !important;
+}
+
 .drawer-header {
   color: #008823;
   font-size: 18px;
@@ -100,19 +104,15 @@ ul {
   list-style: none;
 }
 
-ul li::before {
+.Mokate ul li::before,
+.Mprofood ul li::before,
+.Mission ul li::before {
   content: "\2022";
-  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #008823;
-  /* Change the color */
   font-weight: bold;
-  /* If you want it to be bold */
   display: inline-block;
-  /* Needed to add space between the bullet and the text */
   width: 1em;
-  /* Also needed for space (tweak if needed) */
   margin-left: -1em;
-  /* Also needed for space (tweak if needed) */
 }
 
 .wild-card-image-container {

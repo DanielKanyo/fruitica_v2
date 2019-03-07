@@ -37,6 +37,16 @@ class Contact extends Component {
           <Card className={classes.cardTitle}>
             {this.props.languageObjectProp.data.contact.title}
           </Card>
+          <div>
+            <ul>
+              <li>Trg Republike 7</li>
+              <li>24220 Čantavir, Serbia</li>
+            </ul>
+            <ul>
+              <li>tel: +381 24 782 600</li>
+              <li>mail: office@fruitica.info</li>
+            </ul>
+          </div>
           <div className={classes.mapContainer}>
             <GoogleMap />
           </div>
