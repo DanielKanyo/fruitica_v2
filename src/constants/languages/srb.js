@@ -21,15 +21,9 @@ export const dataSrb = {
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
       title: `FRUITICA`,
-      part1: `Kompanija Fruitica d.o.o. sa sedištem u Čantaviru osnovana je 1996. godine kao generalni zastupnik nemačke
-      kompanije WILD i od samog osnivanja bavi se uvozom i distribucijom industrijskih proizvoda za potrebe
-      proizvodnje prehrambenih proizvoda i bezalkoholnih napitaka (voćni i povrćni preparati, arome, ekstrakti,
-      prirodne boje, koncentrati, zaslađivači, specijalni sastojci).`,
-      part2: `2002. godine kompanija je proširila delatnost na uvoz i distribuciju gotovih proizvoda.`,
-      part3: `2008. godine su uvedeni HACCP i ISO 9001 standardi.`,
-      part4: `2010. godine je počela proizvodnja primarnih poljoprivrednih proizvoda.`,
-      part5: `Za potrebe skladištenja i distribucije kompanija raspolaže savremenim centralnim skladišnim prostorom od 600
-      m², koji se nalazi u Čantaviru blizu autoputa E75.`
+      part1: `Kompanija Fruitica d.o.o. sa sedištem u Čantaviru osnovana je 1996. godine kao generalni zastupnik nemačke kompanije WILD i od samog osnivanja bavi se uvozom i distribucijom industrijskih proizvoda za potrebe proizvodnje prehrambenih proizvoda i bezalkoholnih napitaka (voćni i povrćni preparati, arome, ekstrakti, prirodne boje, koncentrati, zaslađivači, specijalni sastojci).`,
+      part2: `Za potrebe skladištenja i distribucije kompanija raspolaže savremenim centralnim skladišnim prostorom od 1.000 m², koji se nalazi u Čantaviru blizu autoputa E75.`,
+
     },
     mission: {
       part1: `Naša misija je da kontinuirano i konzistentno zadovoljavamo potrebe potrošača i poslovnih partnera, obezbedimo

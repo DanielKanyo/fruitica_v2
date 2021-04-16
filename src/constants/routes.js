@@ -4,7 +4,6 @@ export const COMPANYDATA = '/companydata';
 export const MISSION = '/mission';
 export const NEWS = '/news';
 export const GALLERY = '/gallery';
-export const COMETITION1 = '/competition1';
 export const WILD = '/wild';
 export const MOKATE = '/mokate';
 export const SUPPERFOOD = '/supperfood';

@@ -30,7 +30,6 @@ import Home from '../Home/Home';
 import Career from '../Career/Career';
 import CompanyData from '../About/CompanyData';
 import Mission from '../About/Mission';
-import Competition1 from '../About/Competition1';
 import Wild from '../Materials/Wild';
 import Superfood from '../Materials/Superfood';
 import Mprofood from '../Materials/Mprofood';
@@ -197,15 +196,8 @@ class App extends Component {
             <ListItem button className="sub-item">
               <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[0].items[3]} />
             </ListItem>
-            <ListItem button className="sub-item" onClick={() => { this.toggleSubItem(1) }}>
-              <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[0].items[4]} />
-              <ExpandMoreIcon className="more-icon" moreicon={1} />
-            </ListItem>
-            <div subitem={1} className="sub-sub-list hidden">
-              <ListItem button className="sub-sub-item" component={Link} to={routes.COMETITION1}>
-                <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[0].subItems[0]} />
-              </ListItem>
-            </div>
+           
+            
           </div>
 
           <ListItem button onClick={() => { this.toggleSubItem(2) }}>
@@ -214,9 +206,6 @@ class App extends Component {
           </ListItem>
 
           <div subitem={2} className="sub-list hidden">
-            <ListItem button className="sub-item">
-              <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[1].items[0]} />
-            </ListItem>
             <ListItem button className="sub-item">
               <ListItemText className="menu-item-text" primary={languageObject.data.menuItems[1].items[1]} />
             </ListItem>
@@ -357,12 +346,6 @@ class App extends Component {
                   exact
                   path={routes.MISSION}
                   component={() => <Mission languageObjectProp={this.state.languageObject} />}
-                />
-
-                <Route
-                  exact
-                  path={routes.COMETITION1}
-                  component={() => <Competition1 languageObjectProp={this.state.languageObject} />}
                 />
 
                 <Route

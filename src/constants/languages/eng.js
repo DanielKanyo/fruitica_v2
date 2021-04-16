@@ -21,15 +21,9 @@ export const dataEng = {
     languages: ["HUN", "SRB", "ENG"],
     companyData: {
       title: `FRUITICA`,
-      part1: `Company Fruitica d.o.o. based in Chantavir, was founded in 1996 as the general representative of the German
-      company WILD and since it’s founding has been engaged in importing and distributing industrial products for the
-      needs of the production of food products and soft drinks (fruit and vegetable products, aromas, extracts, natural
-      colors, concentrates, sweeteners, special ingredients).`,
-      part2: `In 2002, the company expanded it’s activities to import and distribution of finished products.`,
-      part3: `In 2008, HACCP and ISO 9001 standards were introduced.`,
-      part4: `In 2010, the production of primary agricultural products started.`,
-      part5: `For storage and distribution purposes, the company has a modern central storage space of 600 m², located in
-      Chantavir near the E75 highway.`
+      part1: `Company Fruitica d.o.o. based in Chantavir, was founded in 1996 as the general representative of the German company WILD and since it’s founding has been engaged in importing and distributing industrial products for the needs of the production of food products and soft drinks (fruit and vegetable products, aromas, extracts, natural colors, concentrates, sweeteners, special ingredients).`,
+      part2: `For storage and distribution purposes, the company has a modern central storage space of 1.000 m², located in Chantavir near the E75 highway.`
+     
     },
     mission: {
       part1: `Our mission is to continuously and consistently meet the needs of consumers and business partners, to provide
